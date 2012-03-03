@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[牧野空的雜記]]></title>
   <link href="http://makinosora.github.com/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T14:46:51+08:00</updated>
+  <updated>2012-03-03T15:34:35+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[MakinoSora]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[安裝ruby心得]]></title>
+    <link href="http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de/"/>
+    <updated>2012-03-03T14:54:00+08:00</updated>
+    <id>http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de</id>
+    <content type="html"><![CDATA[<h1>安裝ruby心路歷程</h1>
+
+<p>新發篇文章測試，晚點再補完內容</p>
+]]></content>
+  </entry>
   
 </feed>
