@@ -4,7 +4,7 @@
   <title><![CDATA[牧野空的雜記]]></title>
   <link href="http://makinosora.github.com/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T17:44:40+08:00</updated>
+  <updated>2012-03-03T17:48:25+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
     <name><![CDATA[MakinoSora]]></name>
@@ -18,12 +18,16 @@
     <link href="http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de/"/>
     <updated>2012-03-03T14:54:00+08:00</updated>
     <id>http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de</id>
-    <content type="html"><![CDATA[<h2>前言：最近按照XDite寫的Rails101實踐在MAC建置Ruby on Rails環境，期間遇到不少問題，現將其問題解法或偷吃步寫下，給自己一個教訓</h2>
+    <content type="html"><![CDATA[<h3>前言：</h3>
 
-<p>安裝失敗的環境設置</p>
+<p>最近按照XDite寫的Rails101實踐在MAC建置Ruby on Rails環境，期間遇到不少問題，現將其問題解法或偷吃步寫下，給自己一個教訓</p>
+
+<h4>安裝失敗的環境設置</h4>
 
 <ul>
-<li>系統版本：Lion 10.7.2</li>
+<li>OS版本：Lion 10.7.2</li>
+<li>Xcode版本：4.2.1</li>
+<li>RVM版本：1.10.1</li>
 </ul>
 
 ]]></content>
