@@ -4,7 +4,7 @@
   <title><![CDATA[牧野空的雜記]]></title>
   <link href="http://makinosora.github.com/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T17:52:57+08:00</updated>
+  <updated>2012-03-03T18:06:51+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
     <name><![CDATA[MakinoSora]]></name>
@@ -48,6 +48,20 @@
 </span><span class='line'>ERROR: There has been an error while trying to run the ree installer. Halting 
 </span><span class='line'>the installation.</span></code></pre></td></tr></table></div></figure>
 
+
+<h4>嘗試解決過程</h4>
+
+<p>爬文<a href="http://miau715.blogspot.com/2011/12/lionree-ruby-enterprise-edition.html">連結1</a>,<a href="http://ruby-china.org/topics/834">連結2</a>後得知xcode 4.2之後的版本已經沒有內建<a href="https://github.com/kennethreitz/osx-gcc-installer">GCC編譯器</a>，因此下載GCC並安裝完畢後，再輸入</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rvm remove ree
+</span><span class='line'>$ export CC=/usr/bin/gcc-4.2
+</span><span class='line'>$ rvm install --force ree</span></code></pre></td></tr></table></div></figure>
+
+
+<p>結果還是出現同樣的error</p>
 ]]></content>
   </entry>
   
