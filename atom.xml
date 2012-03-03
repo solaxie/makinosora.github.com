@@ -4,7 +4,7 @@
   <title><![CDATA[牧野空的雜記]]></title>
   <link href="http://makinosora.github.com/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T17:48:25+08:00</updated>
+  <updated>2012-03-03T17:52:57+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
     <name><![CDATA[MakinoSora]]></name>
@@ -29,6 +29,24 @@
 <li>Xcode版本：4.2.1</li>
 <li>RVM版本：1.10.1</li>
 </ul>
+
+
+<h4>問題說明</h4>
+
+<p>安裝總會出現錯誤</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ERROR: Error running './installer -a 
+</span><span class='line'>/Users/APPLE/.rvm/rubies/ree-1.8.7-2011.03 --no-tcmalloc 
+</span><span class='line'>--dont-install-useful-gems ', please read 
+</span><span class='line'>/Users/APPLE/.rvm/log/ree-1.8.7-2011.03/install.log 
+</span><span class='line'>ERROR: There has been an error while trying to run the ree installer. Halting 
+</span><span class='line'>the installation.</span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
   </entry>
