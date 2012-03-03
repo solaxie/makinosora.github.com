@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | 牧野空的技術筆記]]></title>
   <link href="http://makinosora.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T21:46:06+08:00</updated>
+  <updated>2012-03-03T21:58:29+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
     <name><![CDATA[MakinoSora]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[安裝ruby心得]]></title>
-    <link href="http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de/"/>
-    <updated>2012-03-03T14:54:00+08:00</updated>
-    <id>http://makinosora.github.com/blog/2012/03/03/an-zhuang-rubyxin-de</id>
+    <title type="html"><![CDATA[how-to-instal-and-uninstall-ruby]]></title>
+    <link href="http://makinosora.github.com/blog/2012/03/03/how-to-instal-and-uninstall-ruby/"/>
+    <updated>2012-03-03T21:56:00+08:00</updated>
+    <id>http://makinosora.github.com/blog/2012/03/03/how-to-instal-and-uninstall-ruby</id>
     <content type="html"><![CDATA[<h3>前言：</h3>
 
 <p>最近按照XDite寫的Rails101實踐在MAC建置Ruby on Rails環境，期間遇到不少問題，現將其問題解法或偷吃步寫下，給自己一個教訓</p>
