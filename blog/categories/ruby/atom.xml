@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | 牧野空的雜記]]></title>
   <link href="http://makinosora.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://makinosora.github.com/"/>
-  <updated>2012-03-03T20:11:32+08:00</updated>
+  <updated>2012-03-03T21:12:38+08:00</updated>
   <id>http://makinosora.github.com/</id>
   <author>
     <name><![CDATA[MakinoSora]]></name>
@@ -50,7 +50,7 @@
 </span><span class='line'>$ rvm install --force ree</span></code></pre></td></tr></table></div></figure></notextile></div>
 結果還是出現同樣的error</p>
 
-<p><strong>因為一直找不出原因，火大之後將xcode&amp;rvm砍掉重裝</strong></p>
+<p><strong>因為一直找不出原因，火大將xcode&amp;rvm砍掉重裝</strong></p>
 
 <p><strong>然後時間點很微妙的碰上版本升級…</strong></p>
 
@@ -66,13 +66,12 @@
 <h3>成功安裝過程</h3>
 
 <p>依照Rails101的<strong>步驟</strong>安裝含上述版本之程式
-請按照<a href="http://beginrescueend.com/rvm/install/">RVM官網的步驟安裝</a>裝stable版，但<strong>rvm需更新至development版，否則安裝ruby一樣會出error</strong>，指令如下</p>
+請按照<a href="http://beginrescueend.com/rvm/install/">RVM官網的步驟</a>裝stable版，但<strong>rvm需更新至development版，否則安裝ruby一樣會出error</strong>，指令如下</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ rvm get head</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
-<p>之前在PTT ruby版發問，ihower前輩建議別裝REE，就依建議改裝1.9.3
-更新RVM完成後輸入</p>
+<p>之前在PTT ruby版發問，ihower前輩建議別裝REE，就依建議改裝1.9.3，更新RVM完成後輸入</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ rvm requirements</span></code></pre></td></tr></table></div></figure></notextile></div></p>
@@ -105,13 +104,12 @@
 
 <h3>前言</h3>
 
-<p>𤔡了要玩optopress + github，就來安裝ruby 1.9.2
-沒想到就出現error…
+<p>𤔡了要玩optopress + github，就來安裝ruby 1.9.2，沒想到就出現error…
 <div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>ERROR: Error running 'make ', please read /Users/mary/.rvm/log/ruby-1.9.2-p290/make.log
 </span><span class='line'>ERROR: There has been an error while running make. Halting the installation.</span></code></pre></td></tr></table></div></figure></notextile></div>
-爬文<a href="http://blog.hothero.org/183/install-ruby-1-9-2-solved-error-running-make">連結1</a>後，猜想問題應該是readline，那就先裝readline
+爬文<a href="http://blog.hothero.org/183/install-ruby-1-9-2-solved-error-running-make">連結</a>後，猜想問題應該是readline，那就先裝readline
 <div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -123,6 +121,25 @@
 <h3>結論</h3>
 
 <p>目前readline為6.2.2版，看來是真的是readline的問題</p>
+
+<h1>相關移除方法</h1>
+
+<p>𤔡了重復測試找出原因，不同版本裝了砍砍了裝，rails101只有教你如何安裝，卻沒教如何移除
+所以整理出以下方法</p>
+
+<ul>
+<li>xcode <a href="http://macdevelopertips.com/xcode/how-to-uninstall-xcode.html">link1</a></li>
+<li>homebrew</li>
+<li>gem</li>
+<li>rvm <a href="http://stackoverflow.com/questions/3558656/how-to-remove-rvm-ruby-version-manager-from-my-system">link1</a></li>
+<li>ruby</li>
+</ul>
+
+
+<h3>額外收獲</h3>
+
+<p>爬文中得知<a href="http://unfiniti.com/software/mac/jewelrybox">JewlryBox</a>這套軟體，官網是說The official RVM GUI
+抓回來玩完後感覺還不錯，開啓後會常駐上方列表，有時懶得切畫面打指令就滿方便的</p>
 ]]></content>
   </entry>
   
